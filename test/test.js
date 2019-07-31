@@ -91,6 +91,13 @@ describe('手机号格式验证：checkPhone', () => {
     })
 })
 
+describe('手机号，中间四位*显示：hidePhone', () => {
+    it('结果：true', () => {
+        const result = toolMethods.default.hidePhone('13402318457')
+        expect(result).to.deep.equal('134****8457')
+    })
+})
+
 describe('验证值是否为空：checkValEmpty', () => {
     it('结果：false', () => {
         const result = toolMethods.default.checkValEmpty('513822199410253197')

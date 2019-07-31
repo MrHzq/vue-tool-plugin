@@ -1,4 +1,4 @@
-import VueMethods from './tool-methods'
+import VueMethods from './vue-methods'
 import VueStorage from './vue-storage'
 import ToolMethods from './tool-methods'
 
@@ -11,7 +11,7 @@ export default {
         }
         const defaultConfig: Config = {
             storage: 'session',
-            prefix: 'tool_',
+            prefix: 'vueTool',
             router: ''
         }
         const { router, storage, prefix } = (<any>Object).assign(
@@ -19,11 +19,14 @@ export default {
             defaultConfig,
             config
         )
-        Vue.use(VueMethods, router)
 
-        if (storage) Vue.use(VueStorage, storage, prefix)
+        const tool = (<any>Object).assign(
+            {},
+            VueMethods(router),
+            VueStorage(storage, prefix),
+            ToolMethods
+        )
 
-        const tool = (<any>Object).assign({}, ToolMethods)
         Vue.$tool = tool
         Vue.prototype.$tool = tool
     }
