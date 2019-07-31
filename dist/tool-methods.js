@@ -46,7 +46,7 @@ exports.default = {
     // =======================正常使用的=======================
     // =======================格式化的=======================
     // 日期格式化，默认为：当前时间的 YYYY-MM-DD HH:mm:ss 格式
-    fdata: function (date, fmt) {
+    fdate: function (date, fmt) {
         if (date === void 0) { date = new Date(); }
         if (fmt === void 0) { fmt = 'YYYY-MM-DD HH:mm:ss'; }
         if (typeof date === 'string') {

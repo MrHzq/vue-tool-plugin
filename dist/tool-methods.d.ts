@@ -4,7 +4,7 @@ declare const _default: {
     forinCopy(obj?: any): any;
     rem(val?: string | number): string | number;
     px(val?: string | number): string | number;
-    fdata(date?: any, fmt?: string): string;
+    fdate(date?: any, fmt?: string): string;
     fquery(query?: string): any;
     fprice(_str?: string | number, tofixd?: number): string;
     fnum(num?: string | number): string | number;

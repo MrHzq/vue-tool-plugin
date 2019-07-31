@@ -24,9 +24,9 @@ describe('将值转为%或px方法：px', () => {
     })
 })
 
-// describe('日期格式化方法：fdata', () => {
+// describe('日期格式化方法：fdate', () => {
 //     it('结果：2019-07-31 15:48:45', () => {
-//         const result = toolMethods.default.fdata(1564559325663)
+//         const result = toolMethods.default.fdate(1564559325663)
 //         expect(result).to.equal('2019-07-31 15:48:45')
 //     })
 // })

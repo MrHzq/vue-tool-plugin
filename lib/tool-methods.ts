@@ -35,7 +35,7 @@ export default {
 
     // =======================格式化的=======================
     // 日期格式化，默认为：当前时间的 YYYY-MM-DD HH:mm:ss 格式
-    fdata(date: any = new Date(), fmt: string = 'YYYY-MM-DD HH:mm:ss'): string {
+    fdate(date: any = new Date(), fmt: string = 'YYYY-MM-DD HH:mm:ss'): string {
         if (typeof date === 'string') {
             date = new Date(date.replace(/-/g, '/'))
         }
