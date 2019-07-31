@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MrHzq/vue-tool-plugin.svg?branch=master)](https://travis-ci.org/MrHzq/vue-tool-plugin)
+
 # [vue-tool-plugin](https://github.com/MrHzq/vue-tool-plugin)
 
 [GitHub 源码](https://github.com/MrHzq/vue-tool-plugin)
