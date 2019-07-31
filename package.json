@@ -1,6 +1,6 @@
 {
     "name": "vue-tool-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "vue常用工具、方法",
     "main": "index.js",
     "scripts": {
