@@ -1,0 +1,31 @@
+{
+    "name": "vue-tool-plugin",
+    "version": "1.0.0",
+    "description": "vue常用工具、方法",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "btest": "mocha --reporter spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MrHzq/vue-tool-plugin.git"
+    },
+    "keywords": [
+        "vue-tool"
+    ],
+    "readme": "使用手册https://github.com/MrHzq/vue-tool-plugin",
+    "readmeFilename": "README.md",
+    "author": "hzq",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MrHzq/vue-tool-plugin/issues"
+    },
+    "homepage": "https://github.com/MrHzq/vue-tool-plugin#readme",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^6.2.0",
+        "typescript": "^3.5.3"
+    }
+}
