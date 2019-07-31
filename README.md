@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/MrHzq/vue-tool-plugin.svg?branch=master)](https://travis-ci.org/MrHzq/vue-tool-plugin)
+[![Build Status](https://travis-ci.org/MrHzq/vue-tool-plugin.svg?branch=master)](https://travis-ci.org/MrHzq/vue-tool-plugin) [![Coverage Status](https://coveralls.io/repos/github/MrHzq/vue-tool-plugin/badge.svg?branch=master)](https://coveralls.io/github/MrHzq/vue-tool-plugin?branch=master)
 
 # [vue-tool-plugin](https://github.com/MrHzq/vue-tool-plugin)
 
