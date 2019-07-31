@@ -2,11 +2,12 @@
     "name": "vue-tool-plugin",
     "version": "1.0.2",
     "description": "vue常用工具、方法",
-    "main": "index.js",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc",
         "test": "mocha --reporter spec",
-        "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec"
+        "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js -- -R spec"
     },
     "repository": {
         "type": "git",
