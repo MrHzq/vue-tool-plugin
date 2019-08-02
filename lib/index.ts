@@ -14,6 +14,7 @@ export default {
             prefix: 'vueTool',
             router: ''
         }
+
         const { router, storage, prefix } = (<any>Object).assign(
             {},
             defaultConfig,

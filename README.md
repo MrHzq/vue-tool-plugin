@@ -16,8 +16,16 @@ yarn add vue-tool-plugin
 
 ## 使用
 
+`main.js`引入
+
 ```javascript
 import vueTool from 'vue-tool-plugin'
 
 Vue.use(vueTool)
+```
+
+`.vue`使用
+
+```javascript
+console.log(this.$tool)
 ```
